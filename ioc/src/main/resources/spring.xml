@@ -1,0 +1,26 @@
+<beans >
+
+    <bean id="a" class="A">
+        <constructor name = "b" ref ="b" />
+
+    </bean>
+
+    <bean id="b" class="B">
+
+    </bean>
+
+
+    <!--扫描根目录下的@component-->
+    <componentScan />
+
+    <!--扫面properties文件-->
+    <propertyPlaceholder load="testper.properties"/>
+
+
+
+
+
+
+
+
+</beans>
